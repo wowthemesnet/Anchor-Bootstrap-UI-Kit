@@ -2,13 +2,13 @@
 
 Anchor is a free Bootstrap UI Kit with flexible, ready to use UI components which will hep you build websites faster.
 
-[Live Demo](https://wowthemesnet.github.io/anchor-bootstrap-ui-kit/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/anchor-bootstrap-ui-kit/archive/master.zip)
+[Live Demo](https://wowthemesnet.github.io/Anchor-Bootstrap-UI-Kit/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/Anchor-Bootstrap-UI-Kit/archive/master.zip)
 
 ![mediumish](assets/img/demo/screenshot2.png)
 
 ## Getting Started
 
-[Documentation link](./docs.html).
+[Documentation](https://wowthemesnet.github.io/Anchor-Bootstrap-UI-Kit/docs.html).
 
 ## Built With
 
@@ -27,7 +27,7 @@ Designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT lic
 
 Let's make this even better!
 
-- [Clone the repo](https://github.com/wowthemesnet/anchor-bootstrap-ui-kit).
+- [Clone the repo](https://github.com/wowthemesnet/Anchor-Bootstrap-UI-Kit.git).
 - Create a branch off of master and give it a meaningful name (e.g. my-new-feature).
 - Open a pull request on GitHub and describe the feature or fix.
 
