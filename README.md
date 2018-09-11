@@ -4,7 +4,7 @@ Anchor is a free Bootstrap UI Kit with flexible, ready to use UI components whic
 
 [Live Demo](https://wowthemesnet.github.io/Anchor-Bootstrap-UI-Kit/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/Anchor-Bootstrap-UI-Kit/archive/master.zip)
 
-![screenshot](assets/img/demo/dashb.png)
+[![screenshot](assets/img/demo/dashb.png)](https://wowthemesnet.github.io/Anchor-Bootstrap-UI-Kit/)
 
 ## Getting Started
 
