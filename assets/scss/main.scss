@@ -47,7 +47,9 @@ a {
 .c-pointer:hover {
     cursor:pointer;
 }
-
+.z-index-1 {
+    z-index:1;
+}
 // Typography
 
 .display-3 {
@@ -85,6 +87,9 @@ a {
 @include media-breakpoint-only(xl) {
     .h-xl-300 { 
       height: 300px; 
+    }
+    .h-max-380 {
+      max-height:380px;
     }
 }
 
