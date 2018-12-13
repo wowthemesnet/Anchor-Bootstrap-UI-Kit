@@ -20,15 +20,17 @@ gulp.task('compile-scss', function() {
     .pipe(autoprefixer())
     .pipe(sourcemaps.write(Paths.HERE))
     .pipe(gulp.dest(Paths.CSS));
+  
 });
 
 gulp.task('watch', function() {
-  gulp.watch(Paths.SCSS, ['compile-scss']);
+  gulp.watch(Paths.SCSS, gulp.series('compile-scss'));  
 });
 
-gulp.task('open', function() {
+gulp.task('open', function(fopen) {
   gulp.src('index.html')
     .pipe(open());
+    fopen();
 });
 
-gulp.task('open-app', ['open', 'watch']);
+gulp.task('open-app', gulp.series('open', 'watch'));
