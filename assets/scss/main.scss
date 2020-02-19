@@ -26,6 +26,7 @@
 // General
 body {
     overflow-x: hidden;
+    font-size:15px;
 }
 
 img {
@@ -49,6 +50,9 @@ a {
 }
 .z-index-1 {
     z-index:1;
+}
+.z-index-2 {
+  z-index:2;
 }
 // Typography
 
@@ -91,6 +95,12 @@ a {
     .h-max-380 {
       max-height:380px;
     }
+}
+
+@include media-breakpoint-only(xxl) {
+  .h-xl-560 {
+    max-height:560px;
+  }
 }
 
 // Mixins
@@ -368,7 +378,7 @@ a {
 
 // Lists
 
-ul.list-unstyled li {margin-bottom:1rem;}
+ul.list-unstyled li {margin-bottom:.3rem;}
 
 // Login
 
@@ -403,7 +413,7 @@ article {
 
 // Footer
 footer.bg-black a {
-    color: $teal;
+    color: $white;
 }
 
 

@@ -28,7 +28,7 @@
 NAVBAR (remove topnav if you don't want changed nav background on scroll)
 ------------------------------------------------------------------------>
 <nav class="topnav navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-<div class="container">
+<div class="container-fluid">
 	<a class="navbar-brand" href="./index.html"><i class="fas fa-anchor mr-2"></i><strong>Anchor UI</strong> Kit</a>
 	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
@@ -55,7 +55,7 @@ NAVBAR (remove topnav if you don't want changed nav background on scroll)
 		<ul class="navbar-nav ml-auto d-flex align-items-center">
 			<li class="nav-item">
 			<span class="nav-link" href="#">
-			<a class="btn btn-info btn-round shadow" href="#" data-toggle="modal" data-target="#modal_newsletter"><i class="fas fa-cloud-download-alt"></i> Download UI Kit <a href="https://github.com/wowthemesnet/Anchor-Bootstrap-UI-Kit/archive/master.zip" class="downloadzip" class="hidden"></a>
+			<a class="btn btn-info btn-round shadow-sm" href="#" data-toggle="modal" data-target="#modal_newsletter"><i class="fas fa-cloud-download-alt"></i> Download UI Kit <a href="https://github.com/wowthemesnet/Anchor-Bootstrap-UI-Kit/archive/master.zip" class="downloadzip" class="hidden"></a>
 			</a>
 			</span>
 			</li>
@@ -78,7 +78,7 @@ HEADER
                     <h5 class="font-weight-light mb-4">With this FREE Bootstrap 4.1.3<strong> UI Kit</strong> & <strong><i class="fab fa-sass fa-2x text-info"></i></strong></h5>
                     <a href="#" class="btn btn-lg btn-outline-white btn-round">Learn more</a>
                 </div>
-                <div class="col align-self-bottom align-items-right text-right h-max-380 position-relative z-index-1">
+                <div class="col align-self-bottom align-items-right text-right h-max-380 h-xl-560 position-relative z-index-1">
                     <img src="assets/img/demo/dashb.png" class="rounded img-fluid">
                 </div>
             </div>
@@ -98,37 +98,51 @@ COLOR SCHEME
 --------------------------------------->
 <section class="pt-5 pb-5" data-aos="fade-up">
 <h3 class="h5 mb-4 font-weight-bold">Color Scheme</h3>
-<div class="row text-white align-items-center h-100 text-center">
-	<div class="col-md-4 bg-primary p-5" style="height:130px;">
-		<h5>Primary</h5>
+<div class="row text-white align-items-center text-center">
+	<div class="col-md-4">
+		<div class="bg-primary" style="height:80px;">
+			<h5 class="pt-4">Primary</h5>
+		</div>
 	</div>
-	<div class="col-md-4 bg-secondary p-5" style="height:130px;">
-		<h5>Secondary</h5>
+	<div class="col-md-4">
+		<div class="bg-secondary" style="height:80px;">
+			<h5 class="pt-4">Secondary</h5>
+		</div>
 	</div>
-	<div class="col-md-4 bg-info p-5" style="height:130px;">
-		<h5>Info</h5>
+	<div class="col-md-4">
+		<div class="bg-info" style="height:80px;">
+			<h5 class="pt-4">Info</h5>
+		</div>
 	</div>
-</div>
-<div class="row text-white align-items-center h-100 text-center">
-	<div class="col-md-4 bg-success p-5" style="height:130px;">
-		<h5>Success</h5>
+	<div class="col-md-4">
+		<div class="bg-success" style="height:80px;">
+			<h5 class="pt-4">Success</h5>
+		</div>
 	</div>
-	<div class="col-md-4 bg-warning p-5" style="height:130px;">
-		<h5>Warning</h5>
+	<div class="col-md-4">
+		<div class="bg-warning" style="height:80px;">
+			<h5 class="pt-4">Warning</h5>
+		</div>
 	</div>
-	<div class="col-md-4 bg-danger p-5" style="height:130px;">
-		<h5>Danger</h5>
+	<div class="col-md-4">
+		<div class="bg-danger" style="height:80px;">
+			<h5 class="pt-4">Danger</h5>
+		</div>
 	</div>
-</div>
-<div class="row text-white align-items-center h-100 text-center">
-	<div class="col-md-4 bg-purple p-5" style="height:130px;">
-		<h5>Purple</h5>
+	<div class="col-md-4">
+		<div class="bg-purple" style="height:80px;">
+			<h5 class="pt-4">Purple</h5>
+		</div>
 	</div>
-	<div class="col-md-4 bg-black p-5" style="height:130px;">
-		<h5>Black</h5>
+	<div class="col-md-4">
+		<div class="bg-black" style="height:80px;">
+			<h5 class="pt-4">Black</h5>
+		</div>
 	</div>
-	<div class="col-md-4 bg-cyan p-5" style="height:130px;">
-		<h5>Cyan</h5>
+	<div class="col-md-4">
+		<div class="bg-cyan" style="height:80px;">
+			<h5 class="pt-4">Cyan</h5>
+		</div>
 	</div>
 </div>
 </section>
@@ -138,29 +152,26 @@ CAROUSEL
 --------------------------------------->
 <section class="pt-4 pb-5" data-aos="fade-up" id="example-carousel">
 <h3 class="h5 mb-4 font-weight-bold">Carousel</h3>
-<div class="full-width">
 	<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner shadow-sm rounded">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="assets/img/demo/slide1.jpg" alt="First slide">
+				<img class="d-block w-100" src="https://images.unsplash.com/photo-1475522003475-eb5f96f1f930?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="First slide">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Mountains, Nature Collection</h5>
+					<h5>Mission Beach, San Diego, United States by Matthew Hamilton</h5>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="assets/img/demo/slide3.jpg" alt="Third slide">
+				<img class="d-block w-100" src="https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="Second slide">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Living the Dream, Lost Island</h5>
+					<h5>Golden Gate Bridge, San Francisco, United States by Tim Foster</h5>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 </section>
     
 <!--------------------------------------
@@ -1271,7 +1282,7 @@ JUST FOR DEMO - CTA
 			<i class="fab fa-github mr-1"></i> Fork on Github </a>
 		</div>
 		<div class="col-lg-3">
-			<a target="_blank" class="btn btn-danger shadow-lg btn-lg d-block mb-2 btn-round" href="https://www.paypal.me/wowthemes/10">
+			<a target="_blank" class="btn btn-danger shadow-lg btn-lg d-block mb-2 btn-round" href="https://www.wowthemes.net/donate/">
 			<i class="fas fa-coffee"></i> Buy me a coffee </a>
 		</div>
 	</div>
@@ -1386,7 +1397,7 @@ DEMO MODAL & DONATE BUTTON ONLY - DON'T COPY
 	</div>
 </div>
 <div style="position:fixed; bottom:20px;left:20px;">
-	<a href="https://www.paypal.me/wowthemes/10" target="_blank"><img class="rounded-circle shadow-lg" src="assets/img/demo/coffee.png" width="70" data-toggle="tooltip" data-placement="top" title="" data-original-title="Buy me a coffee!"></a>
+	<a href="https://www.wowthemes.net/donate/" target="_blank"><img class="rounded-circle shadow-lg" src="assets/img/demo/coffee.png" width="70" data-toggle="tooltip" data-placement="top" title="" data-original-title="Buy me a coffee!"></a>
 </div>
 <!--------------------------------------
 END DEMO MODAL & DONATE BUTTON
@@ -1406,7 +1417,8 @@ FOOTER
 			<i class="fas fa-copyright text-white"></i>
 			<small class="d-block mt-3 text-muted">©
 			<script>document.write(new Date().getFullYear())</script>
-			 Anchor Bootstrap UI Kit,  by <a target="_blank" href="https://www.wowthemes.net">WowThemes.net</a>. <a target="_blank" href="https://www.wowthemes.net/freebies-license/">License</a></small>
+			 Anchor Bootstrap UI Kit,  by Sal <a target="_blank" href="https://www.wowthemes.net">@wowthemesnet</a>. License MIT.
+			</small>
 		</div>
 		<div class="col-6 col-md">
 			<h5 class="mb-4 text-white">Features</h5>
